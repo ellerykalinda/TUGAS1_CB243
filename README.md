@@ -144,7 +144,7 @@ python main.py
 ====== Demo Studi Kasus 2 ======
 
 [1. Inisialisasi Author]
-Andrea Hirata lahir tahun 1987, umurnya sekarang: 38 tahun.
+Andrea Hirata lahir tahun 1987, umurnya sekarang: 58 tahun.
 
 [2. Inisialisasi Book]
 --- Library Item Info ---
@@ -224,5 +224,6 @@ AI digunakan **secara terbatas** untuk:
 - Saran struktur folder  
 - Penyusunan dan perapian README.md  
 - Dokumentasi integritas penggunaan AI  
+
 
 **Seluruh implementasi kode program dan logika ditulis sendiri.**
