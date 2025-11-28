@@ -11,7 +11,7 @@ def main():
 
     # 1. Membuat objek Author
     print("\n[1. Inisialisasi Author]")
-    penulis_a = Author("Andrea Hirata", 1987)
+    penulis_a = Author("Andrea Hirata", 1967)
     tahun_sekarang = datetime.date.today().year
     print(f"{penulis_a.name} lahir tahun {penulis_a.birth_year}, umurnya sekarang: {penulis_a.get_age(tahun_sekarang)} tahun.")
     
@@ -52,4 +52,5 @@ def main():
     anggota_1.list_borrowed_items()
     
 if __name__ == "__main__":
+
     main()
