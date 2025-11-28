@@ -47,12 +47,14 @@ def main():
         average_mark=65
     )
     print(mhs_a)
+    print(mhs_b)
 
     # 4. Demonstrasi Method Student
     print("\n[4. Demonstrasi Student Methods]")
     mhs_a.is_eligible_to_enroll("CB243")
     mhs_b.is_eligible_to_enroll("CA233")
     print(f"Ellery telah mengambil {mhs_a.get_seminars_taken()} seminar.")
+   
 
     # 5. Demonstrasi Relasi Supervises
     print("\n[5. Demonstrasi Relasi Supervises]")
