@@ -1,8 +1,8 @@
 # Tugas 1 – Pengembangan Sistem Backend (CB243)
 
 Repositori ini berisi implementasi dua studi kasus OOP sesuai instruksi tugas:
-- Studi Kasus 1: Person–Student–Professor–Address**
-- Studi Kasus 2: LibraryItem–Book–Author–LibraryMember**
+- Studi Kasus 1: Person–Student–Professor–Address
+- Studi Kasus 2: LibraryItem–Book–Author–LibraryMember
 
 Seluruh kode ditulis menggunakan bahasa pemrograman **Python**, tanpa framework (FastAPI / Django), sesuai instruksi tugas.
 
@@ -227,3 +227,4 @@ AI digunakan **secara terbatas** untuk:
 
 
 **Seluruh implementasi kode program dan logika ditulis sendiri.**
+
