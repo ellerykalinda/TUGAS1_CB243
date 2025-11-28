@@ -11,7 +11,7 @@ def main():
 
     # 1. Membuat objek Author
     print("\n[1. Inisialisasi Author]")
-    penulis_a = Author("J.R.R. Tolkien", 1892)
+    penulis_a = Author("Andrea Hirata", 1987)
     tahun_sekarang = datetime.date.today().year
     print(f"{penulis_a.name} lahir tahun {penulis_a.birth_year}, umurnya sekarang: {penulis_a.get_age(tahun_sekarang)} tahun.")
     
@@ -19,7 +19,7 @@ def main():
     print("\n[2. Inisialisasi Book]")
     buku_1 = Book(
         item_id=101, 
-        title="The Hobbit", 
+        title="Laskar Pelangi", 
         isbn="978-0547928227", 
         author=penulis_a
     )
@@ -29,8 +29,8 @@ def main():
     # Perhatikan LibraryMember mewarisi dari Author
     print("\n[3. Inisialisasi Library Member]")
     anggota_1 = LibraryMember(
-        name="Aragorn Elessar", 
-        birth_year=1995, 
+        name="Budi Santosa", 
+        birth_year=1998, 
         member_id=2001
     )
     print(anggota_1) # Menggunakan __str__ dari Author
